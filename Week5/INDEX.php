@@ -11,7 +11,7 @@
 <title>PHP Login Form without Session</title>
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
-<body>
+<body id="aa">
 <h1>PHP Login Form with Session</h1>
 <div class="loginBox">
 <h3>Login Form</h3>
