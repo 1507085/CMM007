@@ -1,10 +1,10 @@
-<?php
+
 /**
  * Created by PhpStorm.
  * User: totio
  * Date: 11/04/2016
  * Time: 02:42
- */?>
+ */
 <html>
 <head>
 <meta charset="utf-8">
