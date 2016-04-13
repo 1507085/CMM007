@@ -1,11 +1,7 @@
 
-/**
- * Created by PhpStorm.
- * User: totio
- * Date: 11/04/2016
- * Time: 02:42
- */
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
     <title>Superhero System</title>
