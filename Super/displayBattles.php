@@ -28,7 +28,7 @@
             $villianFought = $row['villianFought'];
             echo "<articl>
                  <p> The superher known as<strong>{$firstname}{$lastname}</strong> recently fought
-                 <strong>{$villianFought}</strong>{$mainSuperpower}</p></articl>";
+                 <strong>{$villianFought}</strong>using<strong>{$mainSuperpower}</strong></p></articl>";
         }
     ?>
 </main>
