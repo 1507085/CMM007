@@ -13,7 +13,7 @@
 </header>
 <main>
     <?php
-    include (db_connect.php);
+    include ("db_connect.php");
     if(isset($_GET['id'])){
         $superheroID = $_GET['id'];
         $sql_query = "SELECT* FROM superheroID WHERE superheroID= 'superheroID'";
@@ -28,7 +28,7 @@
             $villanFought = $row['villanFought'];
             echo "<articl>
                  <p> The superher known as<strong>{$firstname}{$lastname}</strong> recently fought
-                 <strong>{$villianFought}</strong>using<strong>{$mainSuperpower}</strong></p>";
+                 <strong>{$villianFought}</strong>using<strong>{$mainSuperpower}</strong></p></articl>";
         }
     ?>
 </main>
