@@ -25,10 +25,10 @@
             $firstname = $row['firstname'];
             $lastname = $row['lastname'];
             $mainSuperpower = $row['mainSuperPower'];
-            $villianFought = $row['villanFought'];
+            $villanFought = $row['villanFought'];
             echo "<articl>
                  <p> The superher known as<strong>{$firstname}{$lastname}</strong> recently fought
-                 <strong>{$villianFought}</strong>using<strong>{$mainSuperpower}</strong></p></articl>";
+                 <strong>{$villianFought}</strong>using<strong>{$mainSuperpower}</strong></p>";
         }
     ?>
 </main>
