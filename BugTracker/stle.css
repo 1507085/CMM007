@@ -1,0 +1,25 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+}
+#log{
+  float: left;
+}
+#hed{
+    display-inline: block;
+}
+#sub{
+    padding-top: 0px;
+}
+nav{
+    float: left;
+}
+ul{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+footer{
+    clear: both;
+}
