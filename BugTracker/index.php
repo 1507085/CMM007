@@ -19,11 +19,11 @@
     <section>
         <nav>
             <ul>
-                <li><a href="addbugs.php & showbug.php">All bugs Items</a></li>
-                <li><a href="addbugs.php & showbug.php">Android Bugs</a></li>
-                <li><a href="addbugs.php & showbug.php">iOS Bugs</a></li>
-                <li><a href="addbugs.php & showbug.php">Window Bugs</a></li>
-                <li><a href="addbugs.php & showbug.php">Insert Bug</a></li>
+                <li><a href="showbug.php">All bugs Items</a></li>
+                <li><a href="showbug.php">Android Bugs</a></li>
+                <li><a href="showbug.php">iOS Bugs</a></li>
+                <li><a href="showbug.php">Window Bugs</a></li>
+                <li><a href="showbug.php">Insert Bug</a></li>
             </ul>
         </nav>
     </section>
@@ -38,7 +38,7 @@
     </section>
 </main>
 <footer>
-    <P>Design by Emmanuel Onumah. 2016 </P>
+    <P>Design by Emmanuel Onumah. [2016] </P>
 </footer>
 </body>
 </html>
