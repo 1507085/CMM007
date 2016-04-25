@@ -1,10 +1,4 @@
 
-/**
- * Created by PhpStorm.
- * User: 1507085
- * Date: 25/04/2016
- * Time: 10:39
- */
 
 <!DOCTYPE html>
 <html lang="en">
