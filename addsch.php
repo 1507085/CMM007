@@ -18,7 +18,7 @@ if ($_POST['submit']){
     $sql="INSERT  INTO myskul (schname,schaddress) VALUES ($schname,$schaddress)";
 
     //connect query to database
-    mysqli_query($db,$sql);
+   // mysqli_query($db,$sql);
     if (mysqli_query($db,$sql)){
 
         echo "data added";}
