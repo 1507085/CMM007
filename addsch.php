@@ -10,7 +10,7 @@
 include(connection.php);
 //send data to the table
 
-if ($_POST['submit']){
+
     $schname="";
     $schaddress="";
 
@@ -28,7 +28,3 @@ if ($_POST['submit']){
 
     }
 
-}else{
-
-    echo "data not posted";
-}
