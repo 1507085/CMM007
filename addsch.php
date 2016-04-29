@@ -23,9 +23,12 @@ if ($_POST["submit"]){
 
         echo "data added";}
         else{
-            echo "data not added";
+            echo "Erro".$sql."<br>".mysqli_erro($db);
 
 
     }
 
+}else{
+
+    echo "data not posted";
 }
