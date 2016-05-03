@@ -19,12 +19,13 @@ include(connection.php);
 
     //connect query to database
    // mysqli_query($db,$sql);
-    if (mysqli_query($db,$sql)){
+    if (mysqli_query($db,$sql)) {
 
-        echo "data added";}
-        else{
+        //echo "data added";}
+    }else{
             echo "Erro".$sql."<br>".mysqli_erro($db);
 
 
     }
 
+?>
