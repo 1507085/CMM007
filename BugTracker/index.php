@@ -23,7 +23,7 @@
                 <li><a href="showbug.php">Android Bugs</a></li>
                 <li><a href="showbug.php">iOS Bugs</a></li>
                 <li><a href="showbug.php">Window Bugs</a></li>
-                <li><a href="showbug.php">Insert Bug</a></li>
+                <li><a href="addbugs.php">Insert Bug</a></li>
             </ul>
         </nav>
     </section>
