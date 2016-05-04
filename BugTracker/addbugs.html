@@ -14,21 +14,21 @@
 <section>
     <nav>
         <ul>
-            <li><a href="showbugs.html">All bugs Items</a></li>
-            <li><a href="showbugs.html">Android Bugs</a></li>
-            <li><a href="showbugs.html">iOS Bugs</a></li>
-            <li><a href="showbugs.html">Window Bugs</a></li>
-            <li><a href="addbugs.html">Insert Bug</a></li>
+            <li><a href="showbugs.php">All bugs Items</a></li>
+            <li><a href="showbugs.php">Android Bugs</a></li>
+            <li><a href="showbugs.php">iOS Bugs</a></li>
+            <li><a href="showbugs.php">Window Bugs</a></li>
+            <li><a href="addbugs.php">Insert Bug</a></li>
         </ul>
     </nav>
     </section>
     <section>
-     <form>
+     <form action="addbugs.php" method="post">
          <label>Bug Name</label>
-         <input type="text" name="Bug Name"/><br><br>
+         <input type="text" name="BugName"/><br><br>
          <label>Bug Summary</label>
-         <textarea name="bug summary" cols="16" rows="5"></textarea><br><br>
-         <label>Big Category</label>
+         <textarea name="BugSummary" cols="16" rows="5"></textarea><br><br>
+         <label>Bug Category</label>
          <select>
          <option value="">Android</option>
              <option value="iOS">iOS</option>
